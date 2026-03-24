@@ -1,0 +1,19 @@
+{
+  "name": "httpcloak-poc",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@tsconfig/bun": "1.0.10",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "httpcloak": "1.6.1"
+  },
+  "trustedDependencies": [
+    "koffi"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "httpcloak-poc",
+      "dependencies": {
+        "httpcloak": "1.6.1",
+      },
+      "devDependencies": {
+        "@tsconfig/bun": "1.0.10",
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
+  },
+  "trustedDependencies": [
+    "koffi",
+  ],
+  "packages": {
+    "@httpcloak/darwin-arm64": ["@httpcloak/darwin-arm64@1.6.1", "", { "os": "darwin", "cpu": "arm64" }, "sha512-vvqMHRHZb1P5Vg2p4AFI33cKfgfhBnQn1l/gF0aTrsIbr0OG/iCM8H0UG4OtGBYRa6OTeE9fr9WM0NfjIjOkIA=="],
+
+    "@httpcloak/darwin-x64": ["@httpcloak/darwin-x64@1.6.1", "", { "os": "darwin", "cpu": "x64" }, "sha512-2Ub2Mh1usjrfpo6rpfJAcRDYB/6tE3PgSdJssio/BeSbrzOEbApOWz0dheZfx77pdsNmUmuKNbMYufndhwEtnA=="],
+
+    "@httpcloak/linux-arm64": ["@httpcloak/linux-arm64@1.6.1", "", { "os": "linux", "cpu": "arm64" }, "sha512-BcpzRIGAFtDy09mlwyCbWfLGA3gy+e7eqnPKkW+GbsZcky4COX5TqcUsccnlCRrMNJs8lFF5/dPdRGaYATO7iw=="],
+
+    "@httpcloak/linux-x64": ["@httpcloak/linux-x64@1.6.1", "", { "os": "linux", "cpu": "x64" }, "sha512-pkULQ7HeeolZDuyN/gd4o7QJWjO++ph/69p9bw1EaVecWUyAznYrvW6nWNnYH9BF6I+Kge5nQGhuQc+C2VVzDg=="],
+
+    "@httpcloak/win32-x64": ["@httpcloak/win32-x64@1.6.1", "", { "os": "win32", "cpu": "x64" }, "sha512-tKciHnwUiRy5JAPwhNsC0xJjItjYvIDqshDCvsM5gyHXukqRV/zjfp1M97AonD85tRM7R1sSz8ubvANX0ADP+A=="],
+
+    "@tsconfig/bun": ["@tsconfig/bun@1.0.10", "", {}, "sha512-5AV5YknQjNyoYzZ/8NG0dawqew/wH+x7ANiCfCIn29qo0cdbd1EryvFD1k5NSZWLBMOI/fGqMIaxi58GPIP9Cg=="],
+
+    "@types/bun": ["@types/bun@1.3.11", "", { "dependencies": { "bun-types": "1.3.11" } }, "sha512-5vPne5QvtpjGpsGYXiFyycfpDF2ECyPcTSsFBMa0fraoxiQyMJ3SmuQIGhzPg2WJuWxVBoxWJ2kClYTcw/4fAg=="],
+
+    "@types/node": ["@types/node@25.5.0", "", { "dependencies": { "undici-types": "~7.18.0" } }, "sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw=="],
+
+    "bun-types": ["bun-types@1.3.11", "", { "dependencies": { "@types/node": "*" } }, "sha512-1KGPpoxQWl9f6wcZh57LvrPIInQMn2TQ7jsgxqpRzg+l0QPOFvJVH7HmvHo/AiPgwXy+/Thf6Ov3EdVn1vOabg=="],
+
+    "httpcloak": ["httpcloak@1.6.1", "", { "dependencies": { "koffi": "^2.9.0" }, "optionalDependencies": { "@httpcloak/darwin-arm64": "1.6.1", "@httpcloak/darwin-x64": "1.6.1", "@httpcloak/linux-arm64": "1.6.1", "@httpcloak/linux-x64": "1.6.1", "@httpcloak/win32-arm64": "1.6.1", "@httpcloak/win32-x64": "1.6.1" } }, "sha512-xqrrCDB97Lw60ntVZXhiNUcVBUH2FHHoar5l2BR+W6PRiQIPxi7PKrbE/g+gTm5R//HBvVu3cETR0kdKvy+EWA=="],
+
+    "koffi": ["koffi@2.15.2", "", {}, "sha512-r9tjJLVRSOhCRWdVyQlF3/Ugzeg13jlzS4czS82MAgLff4W+BcYOW7g8Y62t9O5JYjYOLAjAovAZDNlDfZNu+g=="],
+
+    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "undici-types": ["undici-types@7.18.2", "", {}, "sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w=="],
+  }
+}

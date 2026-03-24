@@ -1,0 +1,17 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "app base tsconfig",
+	"extends": "@tsconfig/bun",
+	"compilerOptions": {
+		"preserveSymlinks": false,
+		"downlevelIteration": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowJs": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"strictNullChecks": true,
+		"exactOptionalPropertyTypes": true,
+		"allowImportingTsExtensions": false
+	}
+}
